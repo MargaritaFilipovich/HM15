@@ -1,11 +1,14 @@
 .holder{
+    width: 500px;
    display: flex;
    flex-wrap: wrap;
+   border: 3px solid black;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   overflow: hidden;
 }
 
-.holder{
-    width: 600px; 
-}
+
 
 .item{
     display: flex;
@@ -14,6 +17,7 @@
     font-size: 36px;
     padding: 30px;
     border-width: 30px;
+    
 }
 
 .item:first-child{
